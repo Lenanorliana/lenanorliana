@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormKaryawan</class>
+ <widget class="QWidget" name="FormKaryawan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>75</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hitung</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>211</width>
+     <height>158</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="1">
+     <widget class="QComboBox" name="golonganComboBox">
+      <item>
+       <property name="text">
+        <string>I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>III</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>IV</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="golonganLabel">
+      <property name="text">
+       <string>golongan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="statusNikahLabel">
+      <property name="text">
+       <string>status nikah</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="statusNikahComboBox">
+      <item>
+       <property name="text">
+        <string>Menikah</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Belum Menikah</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="jumlahAnakLabel">
+      <property name="text">
+       <string>Jumlah Anak</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="jumlahAnakLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="masaKerjaLabel">
+      <property name="text">
+       <string>Masa Kerja</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="masaKerjaLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="gajiTotalLabel">
+      <property name="text">
+       <string>Gaji Total</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="gajiTotalLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="nIKLabel">
+      <property name="text">
+       <string>NIK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nIKLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="namaLabel">
+      <property name="text">
+       <string>Nama</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="namaLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="telpLabel">
+      <property name="text">
+       <string>Telp</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="telpLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="alamatLabel">
+      <property name="text">
+       <string>Alamat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="alamatLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>130</y>
+     <width>75</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
