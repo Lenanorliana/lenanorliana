@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Formgoodreceipt</class>
+ <widget class="QWidget" name="Formgoodreceipt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="nogrLabel">
+      <property name="text">
+       <string>nogr</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nogrLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="tglmasukLabel">
+      <property name="text">
+       <string>tglmasuk</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDateEdit" name="tglmasukDateEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="tglpostingLabel">
+      <property name="text">
+       <string>tglposting</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDateEdit" name="tglpostingDateEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="jumlahorderLabel">
+      <property name="text">
+       <string>jumlahorder</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="jumlahorderLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="tglgrLabel">
+      <property name="text">
+       <string>tglgr</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QDateEdit" name="tglgrDateEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="keteranganLabel">
+      <property name="text">
+       <string>keterangan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="keteranganLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="nopoLabel">
+      <property name="text">
+       <string>nopo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="nopoLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="jangkapengirimanLabel">
+      <property name="text">
+       <string>jangkapengiriman</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="jangkapengirimanLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>260</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>260</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>260</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

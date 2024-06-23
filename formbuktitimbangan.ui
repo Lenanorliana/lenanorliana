@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Formbuktitimbangan</class>
+ <widget class="QWidget" name="Formbuktitimbangan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>9</y>
+     <width>401</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="nobuktiLabel">
+      <property name="text">
+       <string>nobukti</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nobuktiLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="tglmasukLabel">
+      <property name="text">
+       <string>tglmasuk</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDateEdit" name="tglmasukDateEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="tglkirimLabel">
+      <property name="text">
+       <string>tglkirim</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDateEdit" name="tglkirimDateEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="nopolisiLabel">
+      <property name="text">
+       <string>nopolisi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="nopolisiLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="nobtLabel">
+      <property name="text">
+       <string>nobt</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="nobtLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="tglkeluarLabel">
+      <property name="text">
+       <string>tglkeluar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QDateEdit" name="tglkeluarDateEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="beratmasukLabel">
+      <property name="text">
+       <string>beratmasuk</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="beratmasukLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="beratkeluarLabel">
+      <property name="text">
+       <string>beratkeluar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="beratkeluarLineEdit"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="nogrLabel">
+      <property name="text">
+       <string>nogr</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="nogrLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>270</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>270</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>hapus</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

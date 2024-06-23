@@ -3,6 +3,10 @@
 
 #include <QApplication>
 #include <karyawan.h>
+#include <barang.h>
+#include<buktipembayaran.h>
+#include<buktitimbangan.h>
+#include<kenderaan.h>
 
 
 int main(int argc, char *argv[])
